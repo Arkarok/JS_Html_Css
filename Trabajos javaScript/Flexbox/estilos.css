@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.padre{
+    background: #7216af;
+    width: 80%;
+    margin: 110px auto;
+    height: 600px;
+    display: flex;
+    /* align-items: center; permite centrar los elementos en el eje vertical */
+    align-content: space-around; /* permite centrar los elementos en eje vertical siempre y cuando esos elementos ocupen mas de una fila */
+    /* justify-content: space-between; justify-content permite dar espacio entre los elementos para el eje horizontal*/
+    /* flex-flow: row wrap; es la convinacion de flex-direction y flex-wrap */
+    /* flex-wrap: wrap; flex-wrap permite deslizar items para que no se pierda la calidad de estos */
+    /* flex-direction: column; flex-direction cambia la direccion en la que se ven los elementos */
+}
+
+.hijo{
+    background: coral;
+    width: 25%;
+    height: 100px;
+    margin: 10px;
+    /* flex-grow: 1; permite incrementar en fracciones los elementos */
+    /* flex-shrink: 2; permite encoger en fracciones los elementos */
+    font-size: 30px;
+    color: white;
+    /* flex-basis: 250px; permite agregar el tamaño en el que se encuentre el eje principal */
+    /* align-self: center; permite centrar los elementos en el eje vertical */
+    /* order: -1; cambia el orden de los elementos */
+}
+
+/*.hijo:nth-child(even){
+    background: blue;
+    flex-grow: 2;
+}*/
+
+@media screen and (max-width:620px){
+
+    /*.padre{
+        flex-direction: column;
+    }*/
+}
+
+@media screen and (max-width:740px){
+
+    .hijo{
+        width: 40%;
+    }
+}
+
+@media screen and (max-width:400px){
+
+    .hijo{
+        width: 90%;
+    }
+}
