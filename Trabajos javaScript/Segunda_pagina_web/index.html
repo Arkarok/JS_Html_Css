@@ -5,8 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: light)" href="css/light.css">
+    <link rel="stylesheet" media="(prefers-color-scheme: dark)" href="css/dark.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script type="module" src="https://unpkg.com/dark-mode-toggle"></script>
     <title>Segunda pagina web</title>
 </head>
 <body>
@@ -17,15 +20,21 @@
                     <img src="img/logo.png" alt="">
                 </div>
                 <div class="enlaces-header">
-                    <a href="">Inicio</a>
-                    <a href="">Inicio</a>
-                    <a href="">Inicio</a>
-                    <a href="">Inicio</a>
-                    <a href="">Inicio</a>
+                    <select>
+                        <option>Inicio</option>
+                    </select>
                 </div>
                 <div class="hamburguer">
                     <i class="fas fa-bars"></i>
                 </div>
+                <dark-mode-toggle
+                    id="dark-mode-toggle-1"
+                    legend="Theme Switcher"
+                    appearance="switch"
+                    dark="Dark"
+                    light="Light"
+                    remember="Remember this" class="toggle-t"
+              ></dark-mode-toggle>
             </section>
         </nav>
         <div class="contenedor">

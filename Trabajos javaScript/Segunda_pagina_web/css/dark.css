@@ -1,5 +1,5 @@
 :root{
-    color-scheme: light dark;
+    background-color: #2D2A2A;
 }
 
 *{
@@ -9,7 +9,7 @@
 }
 
 .toggle-t{
-    color: black;
+    color: blanchedalmond;
 }
 
 body{
@@ -18,7 +18,7 @@ body{
 }
 
 h1, h2, h3, h4, h5, h6{
-    color: #1d273b;
+    color: blanchedalmond;
     font-weight: 300;
 }
 
@@ -52,7 +52,7 @@ header::before{
 nav{
     width: 100%;
     height: 80px;
-    background: white;
+    background: #2F302F;
     border-bottom: 1px solid transparent;
     box-shadow: 1px 1px 10px 0 rgba(0, 0, 0, .2);
     position: fixed;
@@ -87,7 +87,7 @@ nav{
 }
 
 .nav .enlaces-header a{
-    color: #5d6678;
+    color: blanchedalmond;
     text-decoration: none;
     margin-left: 20px;
 }
@@ -136,7 +136,7 @@ nav{
 .textos-header p{
     font-weight: 100;
     margin-top: 14px;
-    color: #5d6678;
+    color: blanchedalmond;
 }
 
 .textos-header a{
@@ -161,7 +161,7 @@ nav{
 
 /* Acerca-de */
 .acerca-de{
-    background: #f2f2f2;
+    background: #2F302F;
 }
 
 .contenedor-articulo{
@@ -173,7 +173,7 @@ nav{
 
 .articulo{
     width: 29%;
-    background: white;
+    background: #2D2A2A;
     margin-bottom: 30px;
     border-radius: 10px;
     padding: 45px 30px 60px 30px;
@@ -181,7 +181,7 @@ nav{
 }
 
 .articulo:hover{
-    box-shadow: 0 4px 10px rgba(17, 29, 48, .26);
+    box-shadow: 0 4px 10px rgba(112, 238, 99);
 }
 
 .articulo > i{
@@ -204,13 +204,13 @@ nav{
 
 .articulo > p{
     font-weight: 100;
-    color: #5d6678;
+    color: blanchedalmond;
     margin-top: 15px;
     padding-bottom: 20px;
 }
 
 .articulo > a{
-    color: #5d6678;
+    color: blanchedalmond;
     font-weight: 400;
     text-decoration: none;
 }
@@ -239,7 +239,7 @@ nav{
 .textos-preguntas p{
     font-weight: 100;
     margin-top: 14px;
-    color: #5d6678;
+    color: blanchedalmond;
 }
 
 .textos-preguntas a{
@@ -339,7 +339,7 @@ nav{
 
 .caja-habilidades h4{
     font-size: 24px;
-    background: #f2f2f2;
+    background: #2D2A2A;
     width: 350px;
     border-radius: 6px;
     padding: 10px 0 10px 15px;
@@ -353,7 +353,7 @@ nav{
 
 /* footer */
 footer{
-    background: #f2f2f2;
+    background: #2F302F;
     padding: 60px 0;
     overflow: hidden;
     display: flex;
@@ -372,7 +372,7 @@ footer{
 }
 
 .parte-footer h4{
-    color: #1d273b;
+    color: blanchedalmond;
     font-size: 20px;
     font-weight: 400;
     margin-bottom: 30px;
